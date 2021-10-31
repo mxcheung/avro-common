@@ -1,0 +1,15 @@
+{
+   "namespace":"com.mxcheung.avro",
+   "type":"record",
+   "name":"ClientIdentifier",
+   "fields":[
+      {
+         "name":"hostName",
+         "type":"string"
+      },
+      {
+         "name":"ipAddress",
+         "type":"string"
+      }
+   ]
+}
