@@ -10,7 +10,7 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.mxcheung</groupId>
-	<artifactId>future-avro</artifactId>
+	<artifactId>avro-common</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>future-avro</name>
 	<description>Future avro model for Kafka Events</description>
