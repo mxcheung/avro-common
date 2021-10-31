@@ -13,62 +13,18 @@
 	<artifactId>future-avro</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>future-avro</name>
-	<description>Future transaction processor on Kafka Streams</description>
+	<description>Future avro model for Kafka Events</description>
 
 	<properties>
-		<confluent.version>4.0.0</confluent.version>
 		<java.version>1.8</java.version>
 		<avro.version>1.9.1</avro.version>
-		<cloud.stream.version>3.0.3.RELEASE</cloud.stream.version>
 		<jaxb.version>0.14.0</jaxb.version>
-		<protobuf.version>3.17.0</protobuf.version>
 	</properties>
 	<dependencies>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-actuator</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.codehaus.jackson</groupId>
-			<artifactId>jackson-mapper-asl</artifactId>
-			<version>1.9.13</version>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.commons</groupId>
-			<artifactId>commons-csv</artifactId>
-			<version>1.4</version>
-		</dependency>
 		<dependency>
 			<groupId>org.apache.avro</groupId>
 			<artifactId>avro</artifactId>
 			<version>${avro.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>com.google.protobuf</groupId>
-			<artifactId>protobuf-java</artifactId>
-			<version>${protobuf.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>org.projectlombok</groupId>
-			<artifactId>lombok</artifactId>
-			<optional>true</optional>
-		</dependency>
-		<dependency>
-			<groupId>io.swagger</groupId>
-			<artifactId>swagger-annotations</artifactId>
-			<version>1.6.1</version>
-		</dependency>
-
-
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-test</artifactId>
-			<scope>test</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.kafka</groupId>
-			<artifactId>spring-kafka-test</artifactId>
-			<scope>test</scope>
 		</dependency>
 	</dependencies>
 
@@ -99,10 +55,5 @@
 		</plugins>
 	</build>
 
-	<repositories>
-		<repository>
-			<id>confluent</id>
-			<url>https://packages.confluent.io/maven/</url>
-		</repository>
-	</repositories>
+
 </project>
